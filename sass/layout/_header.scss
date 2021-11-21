@@ -1,0 +1,38 @@
+.header {
+  background-color: $darkblue;
+  border-radius: 13px;
+  margin-bottom: 20px;
+
+  .descrption {
+    background-color: $blue;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0 20px 37px;
+
+    img {
+      width: 60px;
+      border: solid 3px white;
+      border-radius: 50%;
+    }
+
+    .name-section {
+      margin-left: 25px;
+      div:first-child {
+        font-size: 0.6rem;
+        padding: 2px 0 10px 0;
+      }
+    }
+  }
+
+  .menu {
+    padding: 25px 0 25px 0;
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}

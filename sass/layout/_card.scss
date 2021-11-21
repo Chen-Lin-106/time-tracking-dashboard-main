@@ -1,0 +1,45 @@
+.work {
+  max-width: 300px;
+  margin-bottom: 20px;
+  height: 160px;
+  background-color: $lightred-work;
+  background-image: url("../images/icon-work.svg");
+  background-repeat: no-repeat;
+  background-position: 200px -10px;
+  position: relative;
+  border-radius: 8px;
+
+  .card-detail {
+    border-radius: 10px;
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    background-color: $darkblue;
+    height: 120px;
+    padding: 30px 20px 10px 20px;
+
+    div:first-child {
+      display: flex;
+      p {
+        color: white;
+      }
+      img {
+        align-self: center;
+        margin-left: 200px;
+      }
+    }
+    div:last-child {
+      margin-top: 10px;
+      display: flex;
+      p:first-child {
+        font-size: 2rem;
+        color: white;
+      }
+      p:last-child {
+        font-size: 0.8rem;
+        align-self: center;
+        margin-left: 50px;
+      }
+    }
+  }
+}
