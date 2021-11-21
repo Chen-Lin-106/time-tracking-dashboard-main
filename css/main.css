@@ -193,19 +193,47 @@ html body {
   display: inline-block;
 }
 
-.work {
+.card {
   max-width: 300px;
   margin-bottom: 20px;
   height: 160px;
-  background-color: #ff8c66;
-  background-image: url("../images/icon-work.svg");
+  border-radius: 8px;
+  position: relative;
   background-repeat: no-repeat;
   background-position: 200px -10px;
-  position: relative;
-  border-radius: 8px;
 }
 
-.work .card-detail {
+.card.work {
+  background-color: #ff8c66;
+  background-image: url("../images/icon-work.svg");
+}
+
+.card.play {
+  background-color: #56c2e6;
+  background-image: url("../images/icon-play.svg");
+}
+
+.card.study {
+  background-color: #ff5c7c;
+  background-image: url("../images/icon-study.svg");
+}
+
+.card.exercise {
+  background-color: #4acf81;
+  background-image: url("../images/icon-exercise.svg");
+}
+
+.card.social {
+  background-color: #7536d3;
+  background-image: url("../images/icon-social.svg");
+}
+
+.card.selfcare {
+  background-color: #f1c65b;
+  background-image: url("../images/icon-self-care.svg");
+}
+
+.card .card-detail {
   border-radius: 10px;
   width: 300px;
   position: absolute;
@@ -215,30 +243,30 @@ html body {
   padding: 30px 20px 10px 20px;
 }
 
-.work .card-detail div:first-child {
+.card .card-detail div:first-child {
   display: flex;
 }
 
-.work .card-detail div:first-child p {
+.card .card-detail div:first-child p {
   color: white;
 }
 
-.work .card-detail div:first-child img {
+.card .card-detail div:first-child img {
   align-self: center;
   margin-left: 200px;
 }
 
-.work .card-detail div:last-child {
+.card .card-detail div:last-child {
   margin-top: 10px;
   display: flex;
 }
 
-.work .card-detail div:last-child p:first-child {
+.card .card-detail div:last-child p:first-child {
   font-size: 2rem;
   color: white;
 }
 
-.work .card-detail div:last-child p:last-child {
+.card .card-detail div:last-child p:last-child {
   font-size: 0.8rem;
   align-self: center;
   margin-left: 50px;
